@@ -15,7 +15,11 @@ public boolean hasDuplicate(int[] nums) {
 }
 
 void main() {
-    int [] nums = {1,2,3,4};
-    Set<Integer>set = new HashSet<>();
-    System.out.println(hasDuplicate(nums));
+    LinkedList n1 = new LinkedList();
+
+    n1.insertHead(1);
+    n1.insertTail(2);
+    n1.insertTail(3);
+
+    System.out.println(n1.getValues().toString());
 }
